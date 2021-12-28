@@ -6,3 +6,6 @@ E:\Development\FTPServerUploadFilesApplication\UploadFTPServerFiles\UploadFTPSer
 E:\Development\FTPServerUploadFilesApplication\UploadFTPServerFiles\UploadFTPServerFiles\bin\Debug\UploadFTPServerFiles.pdb
 E:\Development\FTPServerUploadFilesApplication\UploadFTPServerFiles\UploadFTPServerFiles\obj\Debug\UploadFTPServerFiles.exe
 E:\Development\FTPServerUploadFilesApplication\UploadFTPServerFiles\UploadFTPServerFiles\obj\Debug\UploadFTPServerFiles.pdb
+E:\Development\FTPServer_GIT\FTPServerUploadFilesApplication\UploadFTPServerFiles\bin\Debug\UploadFTPServerFiles.exe.config
+E:\Development\FTPServer_GIT\FTPServerUploadFilesApplication\UploadFTPServerFiles\obj\Debug\UploadFTPServerFiles.exe
+E:\Development\FTPServer_GIT\FTPServerUploadFilesApplication\UploadFTPServerFiles\obj\Debug\UploadFTPServerFiles.pdb
