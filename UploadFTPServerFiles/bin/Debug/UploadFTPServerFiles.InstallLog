@@ -1,0 +1,26 @@
+﻿Installing assembly 'E:\Development\FTPServerUploadFilesApplication\UploadFTPServerFiles\UploadFTPServerFiles\bin\Debug\UploadFTPServerFiles.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = E:\Development\FTPServerUploadFilesApplication\UploadFTPServerFiles\UploadFTPServerFiles\bin\Debug\UploadFTPServerFiles.InstallLog
+   assemblypath = E:\Development\FTPServerUploadFilesApplication\UploadFTPServerFiles\UploadFTPServerFiles\bin\Debug\UploadFTPServerFiles.exe
+Installing service FTPFilesUpload...
+Service FTPFilesUpload has been successfully installed.
+Creating EventLog source FTPFilesUpload in log Application...
+Committing assembly 'E:\Development\FTPServerUploadFilesApplication\UploadFTPServerFiles\UploadFTPServerFiles\bin\Debug\UploadFTPServerFiles.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = E:\Development\FTPServerUploadFilesApplication\UploadFTPServerFiles\UploadFTPServerFiles\bin\Debug\UploadFTPServerFiles.InstallLog
+   assemblypath = E:\Development\FTPServerUploadFilesApplication\UploadFTPServerFiles\UploadFTPServerFiles\bin\Debug\UploadFTPServerFiles.exe
+Installing assembly 'E:\Development\FTPServerUploadFilesApplication\UploadFTPServerFiles\UploadFTPServerFiles\bin\Debug\UploadFTPServerFiles.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = E:\Development\FTPServerUploadFilesApplication\UploadFTPServerFiles\UploadFTPServerFiles\bin\Debug\UploadFTPServerFiles.InstallLog
+   assemblypath = E:\Development\FTPServerUploadFilesApplication\UploadFTPServerFiles\UploadFTPServerFiles\bin\Debug\UploadFTPServerFiles.exe
+Installing service FTPFilesUpload...
+Creating EventLog source FTPFilesUpload in log Application...
+Rolling back assembly 'E:\Development\FTPServerUploadFilesApplication\UploadFTPServerFiles\UploadFTPServerFiles\bin\Debug\UploadFTPServerFiles.exe'.
+Affected parameters are:
+   logtoconsole = 
+   logfile = E:\Development\FTPServerUploadFilesApplication\UploadFTPServerFiles\UploadFTPServerFiles\bin\Debug\UploadFTPServerFiles.InstallLog
+   assemblypath = E:\Development\FTPServerUploadFilesApplication\UploadFTPServerFiles\UploadFTPServerFiles\bin\Debug\UploadFTPServerFiles.exe
+Restoring event log to previous state for source FTPFilesUpload.
