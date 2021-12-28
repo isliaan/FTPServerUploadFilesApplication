@@ -8,7 +8,6 @@ using System.IO;
 using System.ServiceProcess;
 using System.Text;
 using System.Threading;
-//using System.Timers;
 using System.Linq;
 using System.Configuration;
 using System.Web;
@@ -35,14 +34,12 @@ namespace UploadFTPServerFiles
         protected override void OnStart(string[] args)
         {
             // TODO: Add code here to start your service.
-            //this.WriteToFile("File Upload Service started {0}");
             this.ScheduleService();
         }
 
         protected override void OnStop()
         {
             // TODO: Add code here to perform any tear-down necessary to stop your service.
-            //this.WriteToFile("File Upload Service stopped: "+DateTime.Now.Date.ToShortDateString());
             this.WriteToFile("File Upload Service stopped: " + DateTime.Now);
             this.Schedular.Dispose();
         }
@@ -213,7 +210,6 @@ namespace UploadFTPServerFiles
                 string schedule = string.Format("{0} day(s) {1} hour(s) {2} minute(s) {3} seconds(s)", timeSpan.Days, timeSpan.Hours, timeSpan.Minutes, timeSpan.Seconds);
 
                 this.WriteToFile("File Upload Service scheduled to run after: " + schedule);
-                //this.WriteToFile("The File Name is: " + LatestFileName + " {0}");
                 this.WriteToFile(LatestFileName + " "+LatestFileDateTime);
                 //this.WriteToFile("File Upload Service Ended: " + DateTime.Now.Date.ToShortDateString());
                 this.WriteToFile("File Upload Service Ended: " + DateTime.Now);
@@ -234,37 +230,7 @@ namespace UploadFTPServerFiles
                     serviceController.Stop();
                 }
             }
-        }
-
-        //public static string NewFileName(string PathName)
-        //{
-        //    try
-        //    {
-        //        //DirectoryInfo di = new DirectoryInfo(PathName);
-        //        //string[] files = di.GetFiles(".*txt");
-
-        //        string[] files = Directory.GetFiles(@"E:\Development\FTPServerDownloadFiles\");
-
-        //        List<FileInfo> lastUpdatedFile = new List<FileInfo>();
-        //        DateTime lastUpdate = DateTime.MinValue;
-        //        foreach(FileInfo file in files)
-        //        {
-        //            if (file.LastAccessTime > lastUpdate)
-        //            {
-        //                lastUpdatedFile.Add(file);
-        //                lastUpdate = file.LastAccessTime;
-        //            }
-        //        }
-        //        string LatestFile = Convert.ToString(lastUpdatedFile[0]);
-
-        //        return LatestFile;
-
-        //    }
-        //    catch (Exception)
-        //    {
-        //        throw;
-        //    }
-        //}
+        }        
 
         private void SchedularCallback(object e)
         {
